@@ -1,21 +1,14 @@
-//
-//  ContentView.swift
-//  maeem
-//
-//  Created by Ilyas MacBook Pro on 02/08/1447 AH.
-//
-
 import SwiftUI
+
+/// Legacy ContentView - App now uses RootView from maeemApp.swift
+/// This file can be removed or used for testing individual components
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        RootView()
+            .environmentObject(AppState.shared)
+            .environmentObject(Router())
+            .environmentObject(SupabaseService.shared)
     }
 }
 

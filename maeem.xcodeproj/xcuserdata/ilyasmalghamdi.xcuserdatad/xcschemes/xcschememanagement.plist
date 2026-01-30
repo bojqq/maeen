@@ -6,8 +6,28 @@
 	<dict>
 		<key>maeem.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A808C5292F205F8600910028</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A808C5362F205F8600910028</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A808C5402F205F8600910028</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

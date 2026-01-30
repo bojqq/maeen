@@ -6,6 +6,77 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A8E2C0002F28100000910028 /* maeemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2C0012F28100000910028 /* maeemApp.swift */; };
+		A808C6592F21608900910028 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62B2F21608900910028 /* HomeView.swift */; };
+		A808C65A2F21608900910028 /* ParentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6362F21608900910028 /* ParentDashboardView.swift */; };
+		A808C65B2F21608900910028 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6242F21608900910028 /* AppState.swift */; };
+		A808C65C2F21608900910028 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64C2F21608900910028 /* AudioService.swift */; };
+		A808C65D2F21608900910028 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6322F21608900910028 /* SplashView.swift */; };
+		A808C65E2F21608900910028 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6302F21608900910028 /* OnboardingFlow.swift */; };
+		A808C65F2F21608900910028 /* MaeemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6522F21608900910028 /* MaeemButton.swift */; };
+		A808C6602F21608900910028 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6552F21608900910028 /* Colors.swift */; };
+		A808C6612F21608900910028 /* PracticeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C63B2F21608900910028 /* PracticeMenuView.swift */; };
+		A808C6622F21608900910028 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64E2F21608900910028 /* SchedulerService.swift */; };
+		A808C6632F21608900910028 /* OrderChunksGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C63A2F21608900910028 /* OrderChunksGame.swift */; };
+		A808C6642F21608900910028 /* SurahSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6332F21608900910028 /* SurahSelectionView.swift */; };
+		A808C6652F21608900910028 /* ParentSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6312F21608900910028 /* ParentSetupView.swift */; };
+		A808C6662F21608900910028 /* QuranAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64D2F21608900910028 /* QuranAPIService.swift */; };
+		A808C6672F21608900910028 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62C2F21608900910028 /* LearnView.swift */; };
+		A808C6682F21608900910028 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6562F21608900910028 /* Typography.swift */; };
+		A808C6692F21608900910028 /* MaeemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6532F21608900910028 /* MaeemCard.swift */; };
+		A808C66A2F21608900910028 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64F2F21608900910028 /* SupabaseService.swift */; };
+		A808C66B2F21608900910028 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6432F21608900910028 /* AppModels.swift */; };
+		A808C66C2F21608900910028 /* ChildSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62F2F21608900910028 /* ChildSetupView.swift */; };
+		A808C66D2F21608900910028 /* MissingSegmentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6392F21608900910028 /* MissingSegmentGame.swift */; };
+		A808C66E2F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6422F21608900910028 /* .gitkeep */; };
+		A808C66F2F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6382F21608900910028 /* .gitkeep */; };
+		A808C6702F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6352F21608900910028 /* .gitkeep */; };
+		A808C6712F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C63D2F21608900910028 /* .gitkeep */; };
+		A808C6722F21608900910028 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A808C6492F21608900910028 /* README.txt */; };
+		A808C6732F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C62A2F21608900910028 /* .gitkeep */; };
+		A808C6742F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6512F21608900910028 /* .gitkeep */; };
+		A808C6752F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C62E2F21608900910028 /* .gitkeep */; };
+		A808C6762F21608900910028 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A808C6462F21608900910028 /* README.txt */; };
+		A808C6772F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6282F21608900910028 /* .gitkeep */; };
+		A808C6782F21608900910028 /* readmd.md in Resources */ = {isa = PBXBuildFile; fileRef = A808C6262F21608900910028 /* readmd.md */; };
+		A808C6792F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C63F2F21608900910028 /* .gitkeep */; };
+		A808C67A2F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6452F21608900910028 /* .gitkeep */; };
+		A808C67B2F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6482F21608900910028 /* .gitkeep */; };
+		A808C67C2F21608900910028 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A808C6232F21608900910028 /* .gitkeep */; };
+		A8E2BFCC2F280F38008C7C86 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6242F21608900910028 /* AppState.swift */; };
+		A8E2BFCD2F280F38008C7C86 /* readmd.md in Sources */ = {isa = PBXBuildFile; fileRef = A808C6262F21608900910028 /* readmd.md */; };
+		A8E2BFCE2F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C6282F21608900910028 /* .gitkeep */; };
+		A8E2BFCF2F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C62A2F21608900910028 /* .gitkeep */; };
+		A8E2BFD02F280F38008C7C86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62B2F21608900910028 /* HomeView.swift */; };
+		A8E2BFD12F280F38008C7C86 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62C2F21608900910028 /* LearnView.swift */; };
+		A8E2BFD22F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C62E2F21608900910028 /* .gitkeep */; };
+		A8E2BFD32F280F38008C7C86 /* ChildSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C62F2F21608900910028 /* ChildSetupView.swift */; };
+		A8E2BFD42F280F38008C7C86 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6302F21608900910028 /* OnboardingFlow.swift */; };
+		A8E2BFD52F280F38008C7C86 /* ParentSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6312F21608900910028 /* ParentSetupView.swift */; };
+		A8E2BFD62F280F38008C7C86 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6322F21608900910028 /* SplashView.swift */; };
+		A8E2BFD72F280F38008C7C86 /* SurahSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6332F21608900910028 /* SurahSelectionView.swift */; };
+		A8E2BFD82F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C6352F21608900910028 /* .gitkeep */; };
+		A8E2BFD92F280F38008C7C86 /* ParentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6362F21608900910028 /* ParentDashboardView.swift */; };
+		A8E2BFDA2F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C6382F21608900910028 /* .gitkeep */; };
+		A8E2BFDB2F280F38008C7C86 /* MissingSegmentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6392F21608900910028 /* MissingSegmentGame.swift */; };
+		A8E2BFDC2F280F38008C7C86 /* OrderChunksGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C63A2F21608900910028 /* OrderChunksGame.swift */; };
+		A8E2BFDD2F280F38008C7C86 /* PracticeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C63B2F21608900910028 /* PracticeMenuView.swift */; };
+		A8E2BFDE2F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C63D2F21608900910028 /* .gitkeep */; };
+		A8E2BFDF2F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C63F2F21608900910028 /* .gitkeep */; };
+		A8E2BFE02F280F38008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C6422F21608900910028 /* .gitkeep */; };
+		A8E2BFE12F280F38008C7C86 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6432F21608900910028 /* AppModels.swift */; };
+		A8E2BFE22F280F52008C7C86 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64C2F21608900910028 /* AudioService.swift */; };
+		A8E2BFE32F280F52008C7C86 /* QuranAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64D2F21608900910028 /* QuranAPIService.swift */; };
+		A8E2BFE42F280F52008C7C86 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64E2F21608900910028 /* SchedulerService.swift */; };
+		A8E2BFE52F280F52008C7C86 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C64F2F21608900910028 /* SupabaseService.swift */; };
+		A8E2BFE62F280F52008C7C86 /* .gitkeep in Sources */ = {isa = PBXBuildFile; fileRef = A808C6512F21608900910028 /* .gitkeep */; };
+		A8E2BFE72F280F52008C7C86 /* MaeemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6522F21608900910028 /* MaeemButton.swift */; };
+		A8E2BFE82F280F52008C7C86 /* MaeemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6532F21608900910028 /* MaeemCard.swift */; };
+		A8E2BFE92F280F52008C7C86 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6552F21608900910028 /* Colors.swift */; };
+		A8E2BFEA2F280F52008C7C86 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C6562F21608900910028 /* Typography.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A808C5382F205F8600910028 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +95,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8E2C0012F28100000910028 /* maeemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "maeem/maeemApp.swift"; sourceTree = SOURCE_ROOT; };
 		A808C52A2F205F8600910028 /* maeem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maeem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A808C5372F205F8600910028 /* maeemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maeemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A808C5412F205F8600910028 /* maeemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maeemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A808C6232F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6242F21608900910028 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A808C6262F21608900910028 /* readmd.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readmd.md; sourceTree = "<group>"; };
+		A808C6282F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C62A2F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C62B2F21608900910028 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A808C62C2F21608900910028 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		A808C62E2F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C62F2F21608900910028 /* ChildSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSetupView.swift; sourceTree = "<group>"; };
+		A808C6302F21608900910028 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		A808C6312F21608900910028 /* ParentSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentSetupView.swift; sourceTree = "<group>"; };
+		A808C6322F21608900910028 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A808C6332F21608900910028 /* SurahSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahSelectionView.swift; sourceTree = "<group>"; };
+		A808C6352F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6362F21608900910028 /* ParentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDashboardView.swift; sourceTree = "<group>"; };
+		A808C6382F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6392F21608900910028 /* MissingSegmentGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingSegmentGame.swift; sourceTree = "<group>"; };
+		A808C63A2F21608900910028 /* OrderChunksGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChunksGame.swift; sourceTree = "<group>"; };
+		A808C63B2F21608900910028 /* PracticeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMenuView.swift; sourceTree = "<group>"; };
+		A808C63D2F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C63F2F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6422F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6432F21608900910028 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		A808C6452F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6462F21608900910028 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A808C6482F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6492F21608900910028 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A808C64C2F21608900910028 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		A808C64D2F21608900910028 /* QuranAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAPIService.swift; sourceTree = "<group>"; };
+		A808C64E2F21608900910028 /* SchedulerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
+		A808C64F2F21608900910028 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		A808C6512F21608900910028 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A808C6522F21608900910028 /* MaeemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaeemButton.swift; sourceTree = "<group>"; };
+		A808C6532F21608900910028 /* MaeemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaeemCard.swift; sourceTree = "<group>"; };
+		A808C6552F21608900910028 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A808C6562F21608900910028 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A808C52C2F205F8600910028 /* maeem */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = maeem;
-			sourceTree = "<group>";
-		};
 		A808C53A2F205F8600910028 /* maeemTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = maeemTests;
@@ -75,7 +181,13 @@
 		A808C5212F205F8600910028 = {
 			isa = PBXGroup;
 			children = (
-				A808C52C2F205F8600910028 /* maeem */,
+				A808C6252F21608900910028 /* App */,
+				A808C6272F21608900910028 /* docs */,
+				A808C6412F21608900910028 /* Features */,
+				A808C6442F21608900910028 /* Models */,
+				A808C64B2F21608900910028 /* Resources */,
+				A808C6502F21608900910028 /* Services */,
+				A808C6582F21608900910028 /* UI */,
 				A808C53A2F205F8600910028 /* maeemTests */,
 				A808C5442F205F8600910028 /* maeemUITests */,
 				A808C52B2F205F8600910028 /* Products */,
@@ -90,6 +202,179 @@
 				A808C5412F205F8600910028 /* maeemUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A808C6252F21608900910028 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6232F21608900910028 /* .gitkeep */,
+				A808C6242F21608900910028 /* AppState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A808C6272F21608900910028 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6262F21608900910028 /* readmd.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		A808C6292F21608900910028 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6282F21608900910028 /* .gitkeep */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A808C62D2F21608900910028 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				A808C62A2F21608900910028 /* .gitkeep */,
+				A808C62B2F21608900910028 /* HomeView.swift */,
+				A808C62C2F21608900910028 /* LearnView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		A808C6342F21608900910028 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A808C62E2F21608900910028 /* .gitkeep */,
+				A808C62F2F21608900910028 /* ChildSetupView.swift */,
+				A808C6302F21608900910028 /* OnboardingFlow.swift */,
+				A808C6312F21608900910028 /* ParentSetupView.swift */,
+				A808C6322F21608900910028 /* SplashView.swift */,
+				A808C6332F21608900910028 /* SurahSelectionView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A808C6372F21608900910028 /* ParentDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6352F21608900910028 /* .gitkeep */,
+				A808C6362F21608900910028 /* ParentDashboardView.swift */,
+			);
+			path = ParentDashboard;
+			sourceTree = "<group>";
+		};
+		A808C63C2F21608900910028 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6382F21608900910028 /* .gitkeep */,
+				A808C6392F21608900910028 /* MissingSegmentGame.swift */,
+				A808C63A2F21608900910028 /* OrderChunksGame.swift */,
+				A808C63B2F21608900910028 /* PracticeMenuView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		A808C63E2F21608900910028 /* Recite */ = {
+			isa = PBXGroup;
+			children = (
+				A808C63D2F21608900910028 /* .gitkeep */,
+			);
+			path = Recite;
+			sourceTree = "<group>";
+		};
+		A808C6402F21608900910028 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				A808C63F2F21608900910028 /* .gitkeep */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		A808C6412F21608900910028 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6292F21608900910028 /* Auth */,
+				A808C62D2F21608900910028 /* Learn */,
+				A808C6342F21608900910028 /* Onboarding */,
+				A808C6372F21608900910028 /* ParentDashboard */,
+				A808C63C2F21608900910028 /* Practice */,
+				A808C63E2F21608900910028 /* Recite */,
+				A808C6402F21608900910028 /* Results */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A808C6442F21608900910028 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6422F21608900910028 /* .gitkeep */,
+				A808C6432F21608900910028 /* AppModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A808C6472F21608900910028 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6452F21608900910028 /* .gitkeep */,
+				A808C6462F21608900910028 /* README.txt */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A808C64A2F21608900910028 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6482F21608900910028 /* .gitkeep */,
+				A808C6492F21608900910028 /* README.txt */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		A808C64B2F21608900910028 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6472F21608900910028 /* Audio */,
+				A808C64A2F21608900910028 /* Icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A808C6502F21608900910028 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A808C64C2F21608900910028 /* AudioService.swift */,
+				A808C64D2F21608900910028 /* QuranAPIService.swift */,
+				A808C64E2F21608900910028 /* SchedulerService.swift */,
+				A808C64F2F21608900910028 /* SupabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A808C6542F21608900910028 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6512F21608900910028 /* .gitkeep */,
+				A808C6522F21608900910028 /* MaeemButton.swift */,
+				A808C6532F21608900910028 /* MaeemCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A808C6572F21608900910028 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6552F21608900910028 /* Colors.swift */,
+				A808C6562F21608900910028 /* Typography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A808C6582F21608900910028 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A808C6542F21608900910028 /* Components */,
+				A808C6572F21608900910028 /* Theme */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +392,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				A808C52C2F205F8600910028 /* maeem */,
-			);
 			name = maeem;
 			packageProductDependencies = (
+				A808C5DD2F212B1F00910028 /* Supabase */,
 			);
 			productName = maeem;
 			productReference = A808C52A2F205F8600910028 /* maeem.app */;
@@ -195,6 +478,9 @@
 			);
 			mainGroup = A808C5212F205F8600910028;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A808C5DC2F212B1F00910028 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A808C52B2F205F8600910028 /* Products */;
 			projectDirPath = "";
@@ -219,6 +505,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A808C66E2F21608900910028 /* .gitkeep in Resources */,
+				A808C66F2F21608900910028 /* .gitkeep in Resources */,
+				A808C6702F21608900910028 /* .gitkeep in Resources */,
+				A808C6712F21608900910028 /* .gitkeep in Resources */,
+				A808C6722F21608900910028 /* README.txt in Resources */,
+				A808C6732F21608900910028 /* .gitkeep in Resources */,
+				A808C6742F21608900910028 /* .gitkeep in Resources */,
+				A808C6752F21608900910028 /* .gitkeep in Resources */,
+				A808C6762F21608900910028 /* README.txt in Resources */,
+				A808C6772F21608900910028 /* .gitkeep in Resources */,
+				A808C6782F21608900910028 /* readmd.md in Resources */,
+				A808C6792F21608900910028 /* .gitkeep in Resources */,
+				A808C67A2F21608900910028 /* .gitkeep in Resources */,
+				A808C67B2F21608900910028 /* .gitkeep in Resources */,
+				A808C67C2F21608900910028 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +537,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E2C0002F28100000910028 /* maeemApp.swift in Sources */,
+				A8E2BFE22F280F52008C7C86 /* AudioService.swift in Sources */,
+				A8E2BFE32F280F52008C7C86 /* QuranAPIService.swift in Sources */,
+				A8E2BFE42F280F52008C7C86 /* SchedulerService.swift in Sources */,
+				A8E2BFE52F280F52008C7C86 /* SupabaseService.swift in Sources */,
+				A8E2BFE62F280F52008C7C86 /* .gitkeep in Sources */,
+				A8E2BFE72F280F52008C7C86 /* MaeemButton.swift in Sources */,
+				A8E2BFE82F280F52008C7C86 /* MaeemCard.swift in Sources */,
+				A8E2BFE92F280F52008C7C86 /* Colors.swift in Sources */,
+				A8E2BFEA2F280F52008C7C86 /* Typography.swift in Sources */,
+				A8E2BFCC2F280F38008C7C86 /* AppState.swift in Sources */,
+				A8E2BFCD2F280F38008C7C86 /* readmd.md in Sources */,
+				A8E2BFCE2F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFCF2F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFD02F280F38008C7C86 /* HomeView.swift in Sources */,
+				A8E2BFD12F280F38008C7C86 /* LearnView.swift in Sources */,
+				A8E2BFD22F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFD32F280F38008C7C86 /* ChildSetupView.swift in Sources */,
+				A8E2BFD42F280F38008C7C86 /* OnboardingFlow.swift in Sources */,
+				A8E2BFD52F280F38008C7C86 /* ParentSetupView.swift in Sources */,
+				A8E2BFD62F280F38008C7C86 /* SplashView.swift in Sources */,
+				A8E2BFD72F280F38008C7C86 /* SurahSelectionView.swift in Sources */,
+				A8E2BFD82F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFD92F280F38008C7C86 /* ParentDashboardView.swift in Sources */,
+				A8E2BFDA2F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFDB2F280F38008C7C86 /* MissingSegmentGame.swift in Sources */,
+				A8E2BFDC2F280F38008C7C86 /* OrderChunksGame.swift in Sources */,
+				A8E2BFDD2F280F38008C7C86 /* PracticeMenuView.swift in Sources */,
+				A8E2BFDE2F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFDF2F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFE02F280F38008C7C86 /* .gitkeep in Sources */,
+				A8E2BFE12F280F38008C7C86 /* AppModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +576,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A808C6592F21608900910028 /* HomeView.swift in Sources */,
+				A808C65A2F21608900910028 /* ParentDashboardView.swift in Sources */,
+				A808C65B2F21608900910028 /* AppState.swift in Sources */,
+				A808C65C2F21608900910028 /* AudioService.swift in Sources */,
+				A808C65D2F21608900910028 /* SplashView.swift in Sources */,
+				A808C65E2F21608900910028 /* OnboardingFlow.swift in Sources */,
+				A808C65F2F21608900910028 /* MaeemButton.swift in Sources */,
+				A808C6602F21608900910028 /* Colors.swift in Sources */,
+				A808C6612F21608900910028 /* PracticeMenuView.swift in Sources */,
+				A808C6622F21608900910028 /* SchedulerService.swift in Sources */,
+				A808C6632F21608900910028 /* OrderChunksGame.swift in Sources */,
+				A808C6642F21608900910028 /* SurahSelectionView.swift in Sources */,
+				A808C6652F21608900910028 /* ParentSetupView.swift in Sources */,
+				A808C6662F21608900910028 /* QuranAPIService.swift in Sources */,
+				A808C6672F21608900910028 /* LearnView.swift in Sources */,
+				A808C6682F21608900910028 /* Typography.swift in Sources */,
+				A808C6692F21608900910028 /* MaeemCard.swift in Sources */,
+				A808C66A2F21608900910028 /* SupabaseService.swift in Sources */,
+				A808C66B2F21608900910028 /* AppModels.swift in Sources */,
+				A808C66C2F21608900910028 /* ChildSetupView.swift in Sources */,
+				A808C66D2F21608900910028 /* MissingSegmentGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +754,7 @@
 				DEVELOPMENT_TEAM = 68L64QG7PC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = maeem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,13 +765,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +787,7 @@
 				DEVELOPMENT_TEAM = 68L64QG7PC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = maeem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,13 +798,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,9 +823,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maeem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maeem";
@@ -489,9 +845,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maeem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maeem";
@@ -509,9 +865,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeemUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = maeem;
@@ -529,9 +885,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maeen.app.maeemUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = maeem;
@@ -578,6 +934,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A808C5DC2F212B1F00910028 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A808C5DD2F212B1F00910028 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A808C5DC2F212B1F00910028 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A808C5222F205F8600910028 /* Project object */;
 }
